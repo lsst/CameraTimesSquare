@@ -7,7 +7,7 @@ authors:
 parameters:
   dayObs:
     type: string
-    description: Night (YYYY-MM-DD)
+    description: Night (YYYYMMDD)
     default: "Today"
 
   run:
