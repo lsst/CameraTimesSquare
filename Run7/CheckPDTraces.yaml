@@ -1,0 +1,12 @@
+title: Check PD traces
+description: Check PD traces
+authors:
+  - name: Yousuke Utsumi
+    slack: Yousuke
+
+parameters:
+  run:
+    type: string
+    description: Run num
+    default: "E1154"
+
