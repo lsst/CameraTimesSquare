@@ -9,3 +9,8 @@ parameters:
     type: string
     description: Night (YYYY-MM-DD)
     default: "Today"
+
+  run:
+    type: string
+    description: run number (E1170)
+    default: None
