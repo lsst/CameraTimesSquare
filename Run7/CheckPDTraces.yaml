@@ -11,7 +11,7 @@ parameters:
     default: "E1154"
 
   exposure:
-    type: int  
+    type: integer
     description: exposure id
     default: 2024101300037
 
