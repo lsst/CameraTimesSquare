@@ -10,3 +10,8 @@ parameters:
     description: Run num
     default: "E1154"
 
+  exposure:
+    type: int  
+    description: exposure id
+    default: 2024101300037
+
