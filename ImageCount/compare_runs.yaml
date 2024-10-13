@@ -1,0 +1,37 @@
+title: Compare Runs
+description: compare runs
+authors:
+  - name: Sean MacBride
+    slack: Sean
+
+parameters:
+  base:
+    type: string
+    description: Run num
+    default: "E1110"
+
+  baseweekly:
+    type: string
+    description: DM weekly
+    default: "w_2024_35"
+
+  baserepo:
+    type: string
+    description: Repository
+    default: "embargo_new"
+
+  run:
+    type: string
+    description: Run num
+    default: "E1195"
+
+  runweekly:
+    type: string
+    description: DM weekly
+    default: "w_2024_35"
+
+  runrepo:
+    type: string
+    description: Repository
+    default: "embargo_new"
+
