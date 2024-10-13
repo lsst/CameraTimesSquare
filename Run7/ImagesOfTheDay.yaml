@@ -13,4 +13,4 @@ parameters:
   run:
     type: string
     description: run number (E1170)
-    default: None
+    default: "None"
