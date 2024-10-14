@@ -12,5 +12,5 @@ parameters:
 
   run:
     type: string
-    description: run number (E1170)
+    description: run number (E1170), put None if you want to check by day
     default: "None"
