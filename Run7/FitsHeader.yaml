@@ -13,5 +13,5 @@ parameters:
   detector:
     type: string
     description: sensor name
-    default: "R00_SG0"
+    default: "R10_S00"
 

@@ -14,3 +14,8 @@ parameters:
     type: string
     description: run number (E1170), put None if you want to check by day
     default: "None"
+
+  sensor:
+    type: string
+    description: a sensor for displaying header
+    default: "R10_S10"
