@@ -1,0 +1,17 @@
+title: Guider notebook
+description: show guider images
+authors:
+  - name: Yousuke Utsumi
+    slack: Yousuke
+
+parameters:
+  expid:
+    type: string
+    description: Exposure ID
+    default: "MC_C_20241011_001320"
+
+  sensor:
+    type: string
+    description: sensor name
+    default: "R00_SG0"
+
