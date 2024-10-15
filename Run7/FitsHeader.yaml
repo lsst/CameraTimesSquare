@@ -10,7 +10,7 @@ parameters:
     description: Exposure ID
     default: "MC_C_20241011_001320"
 
-  detector:
+  sensor:
     type: string
     description: sensor name
     default: "R10_S00"
