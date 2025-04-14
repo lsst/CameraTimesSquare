@@ -8,22 +8,22 @@ authors:
 
 parameters:
   autoscale:
-    type: bool
+    type: boolean
     description: Autoscale
     default: False
   vmin:
-    type: float
+    type: number
     description: Set the scaling, vmin
     default: 14500
   vmax:
-    type: float
+    type: number
     description: Set the scaling, vmax
     default: 15000
   dayObs:
-    type: int
+    type: integer
     description: dayObs (YYYYMMDD)
     default: 20250410
   seqNum:
-    type: int
+    type: integer
     description: seqNum
     default: 8
