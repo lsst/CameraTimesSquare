@@ -1,0 +1,29 @@
+title: Guider movie notebook
+description: Show guider images as movies
+authors:
+  - name: Craig Lage
+    slack: Craig Lage
+  - name: Sean MacBride
+    slack: Sean MacBride
+
+parameters:
+  autoscale:
+    type: bool
+    description: Autoscale
+    default: False
+  vmin:
+    type: float
+    description: Set the scaling, vmin
+    default: 14500
+  vmax:
+    type: float
+    description: Set the scaling, vmax
+    default: 15000
+  dayObs:
+    type: int
+    description: dayObs (YYYYMMDD)
+    default: 20250410
+  seqNum:
+    type: int
+    description: seqNum
+    default: 8
