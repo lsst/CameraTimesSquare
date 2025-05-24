@@ -1,0 +1,17 @@
+title: Guider notebook
+description: show guider images
+authors:
+  - name: Yousuke Utsumi
+    slack: Yousuke
+
+parameters:
+  start:
+    type: string
+    description: Date
+    default: "2025-05-01"
+
+  duration:
+    type: int
+    description: Duration (days)
+    default: 1
+
