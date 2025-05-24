@@ -11,7 +11,7 @@ parameters:
     default: "2025-05-01"
 
   duration:
-    type: int
+    type: integer
     description: Duration (days)
     default: 1
 
