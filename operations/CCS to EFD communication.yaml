@@ -1,5 +1,5 @@
 title: CCS to EFD communication
-description: Goal: Validate that CCS messages are passed to EFD correctly
+description: Goal - Validate that CCS messages are passed to EFD correctly
 authors:
   - name: Sean MacBride
     slack: Sean MacBride
