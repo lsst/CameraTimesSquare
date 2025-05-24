@@ -1,8 +1,8 @@
-title: Guider notebook
-description: show guider images
+title: CCS to EFD communication
+description: **Goal:** Validate that CCS messages are passed to EFD correctly
 authors:
-  - name: Yousuke Utsumi
-    slack: Yousuke
+  - name: Sean MacBride
+    slack: Sean MacBride
 
 parameters:
   start:
