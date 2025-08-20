@@ -1,0 +1,17 @@
+title: CCS to EFD communication
+description: Goal - Validate that CCS messages are passed to EFD correctly
+authors:
+  - name: Sean MacBride
+    slack: Sean MacBride
+
+parameters:
+  start:
+    type: string
+    description: Date
+    default: "2025-05-01"
+
+  duration:
+    type: integer
+    description: Duration (days)
+    default: 1
+
