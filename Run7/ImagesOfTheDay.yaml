@@ -12,10 +12,16 @@ parameters:
 
   run:
     type: string
-    description: run number (E1170), put None if you want to check by day
+    description: (optional) run number (E1170), put None if you want to check by day
     default: "None"
 
+  guidersensor:
+    type: string
+    description: a sensor to display guider data
+    default: "R44_SG0"
+    
   sensor:
     type: string
-    description: a sensor for displaying header
+    description: a sensor to display its header
     default: "R10_S10"
+
