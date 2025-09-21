@@ -1,0 +1,17 @@
+title: Monitor cryo system peformance with respect to the ambient temperature
+description: The known Cryo performance degration is explained by the re-condensation in the vapor lines. This notebook aims at showing the C3Exit Temp, which is the most sensitive parameter to the cryo degration, with respect to the delta temp between the ambient temperature and the phase separator temperature.
+authors:
+  - name: Yousuke Utsumi
+    slack: youtsumi
+
+parameters:
+  t_end:
+    type: string
+    description: Time to end this plot.
+    default: "Now"
+
+  duration_in_day:
+    type: integer
+    description: Duration (days)
+    default: 30
+
