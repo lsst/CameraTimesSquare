@@ -1,0 +1,17 @@
+title: Cryo Parameters
+description: This notebook retrieves and plots cryo parameters from the EFD for the Times Square camera.
+authors:
+  - name: Yousuke Utsumi
+    slack: youtsumi
+
+parameters:
+  t_end:
+    type: string
+    description: Time to end this plot.
+    default: "Now"
+
+  duration_in_day:
+    type: integer
+    description: Duration (days)
+    default: 30
+
