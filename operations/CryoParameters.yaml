@@ -15,3 +15,7 @@ parameters:
     description: Duration (days)
     default: 30
 
+  figformat:
+    type: string
+    description: Figure format
+    default: 'retina'
