@@ -17,5 +17,10 @@ parameters:
 
   figformat:
     type: string
-    description: Figure format
+    description: Figure format in matplotlib configuration (e.g., 'retina', 'png', 'svg')
     default: 'retina'
+
+  time_interval:
+    type: string
+    description: Time interval for data aggregation in Chronograph format (e.g., '5m', '1h')
+    default: '5m'
