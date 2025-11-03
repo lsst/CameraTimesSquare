@@ -23,4 +23,4 @@ parameters:
   time_interval:
     type: string
     description: Time interval for data aggregation in Chronograph format (e.g., '5m', '1h')
-    default: '5m'
+    default: '1h'
