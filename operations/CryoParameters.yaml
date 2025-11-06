@@ -12,8 +12,8 @@ parameters:
 
   duration_in_day:
     type: integer
-    description: Duration (days)
-    default: 30
+    description: Duration (days) (e.g., 2, 50, or 200!)
+    default: 2
 
   figformat:
     type: string
@@ -23,4 +23,4 @@ parameters:
   time_interval:
     type: string
     description: Time interval for data aggregation in Chronograph format (e.g., '5m', '1h')
-    default: '1h'
+    default: '5m'
