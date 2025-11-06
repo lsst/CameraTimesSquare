@@ -8,7 +8,7 @@ parameters:
   expid:
     type: string
     description: Exposure ID
-    default: "MC_C_20241011_001320"
+    default: "MC_O_20251103_000421"
 
   sensor:
     type: string
