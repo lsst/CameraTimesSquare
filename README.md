@@ -1,3 +1,3 @@
 # CameraTimesSquare
-Camera EO testing notebook area.
+Camera notebook area.
 Notebooks for daily checking will be aded.
