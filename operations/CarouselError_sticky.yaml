@@ -1,0 +1,25 @@
+title: CarouselError_sticky
+description: The carousel maintain the LSSTcam  filters out of the beam and present the selected filter to be installed on the focal plane to the AutoChanger. When not used for some time ( ~10 hours and more),it mays fail to start its movement. This generate a crash of the carousel controler with a set of caracteristic errors :
+
+Error code = 0xff12 / error name = Auxiliary Sensor Direction Error
+
+Error code = 0x2310 / error name = Overcurrent Error
+
+Error code = 0x8611 / error name = Following Error
+
+
+This notebook aims to find this type of error in the database , and through the production of a plot, it can confirm or not that a carousel error at a given time is of the "sticky" type . To recover such error requests nothing else than setting the camera under the observatory controland  and to re-execute the filter exchange requested. 
+authors:
+  - name: Pierre Antilogus
+    slack: Antilogus
+
+parameters:
+  last_data_date:
+    type: string
+    description: Time to end this plot (YYYY-MM-DD)".
+    default: "Now"
+
+  duration_in_day:
+    type: integer
+    description: Duration (days)
+    default: 1
