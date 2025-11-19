@@ -12,7 +12,7 @@ parameters:
 
   duration_in_day:
     type: number
-    tion: Duration (days) (e.g., 2, 50, or 200!)
+    description: Duration (days) (e.g., 2, 50, or 200!)
     default: 2
 
   figformat:
