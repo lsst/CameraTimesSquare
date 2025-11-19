@@ -11,7 +11,7 @@ parameters:
     default: "Now"
 
   duration_in_day:
-    type: integer
+    type: number
     description: Duration (days) (e.g., 2, 50, or 200!)
     default: 2
 
