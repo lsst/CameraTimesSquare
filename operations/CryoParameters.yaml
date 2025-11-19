@@ -11,8 +11,8 @@ parameters:
     default: "Now"
 
   duration_in_day:
-    type: integer
-    description: Duration (days) (e.g., 2, 50, or 200!)
+    type: float
+    tion: Duration (days) (e.g., 2, 50, or 200!)
     default: 2
 
   figformat:
