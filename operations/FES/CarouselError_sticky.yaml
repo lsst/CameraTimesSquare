@@ -1,4 +1,4 @@
-title: TempSensitivity
+title: CarouselError_sticky
 description: The carousel maintain the LSSTcam  filters out of the beam and present the selected filter to be installed on the focal plane to the AutoChanger. When not used for some time ( ~10 hours and more),it mays fail to start its movement. This generate a crash of the carousel controler with a set of caracteristic errors :
 
 Error code = 0xff12 / error name = Auxiliary Sensor Direction Error
@@ -14,7 +14,7 @@ authors:
     slack: Antilogus
 
 parameters:
-  t_end:
+  last_data_date:
     type: string
     description: Time to end this plot (YYYY-MM-DD)".
     default: "Now"
@@ -23,4 +23,3 @@ parameters:
     type: integer
     description: Duration (days)
     default: 1
-
