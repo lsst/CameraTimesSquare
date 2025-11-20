@@ -7,7 +7,7 @@ Error code = 0x2310 / error name = Overcurrent Error
 
 Error code = 0x8611 / error name = Following Error
 
-
+ 
 This notebook aims to find this type of error in the database , and through the production of a plot, it can confirm or not that a carousel error at a given time is of the "sticky" type . To recover such error requests nothing else than setting the camera under the observatory controland  and to re-execute the filter exchange requested. 
 authors:
   - name: Pierre Antilogus
