@@ -1,5 +1,6 @@
 title: SetFilterMonitor_time
-description: The duration of a filter exchange is a good indicator of the smoothness (or not) of the operation. In these plots we review how much time is needed to cahnge a filter globably and for important step of the filter exchange.  
+description: The duration of a filter exchange is a good indicator of the smoothness (or not) of the operation.
+In these plots we review how much time is needed to cahnge a filter globably and for important step of the filter exchange.  
 authors:
   - name: Pierre Antilogus
     slack: Antilogus
