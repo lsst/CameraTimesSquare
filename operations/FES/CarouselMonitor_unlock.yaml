@@ -1,5 +1,7 @@
 title: CarouselMonitor_unlock
-description: The carousel maintain the LSSTcam  filters out of the beam and present the selected filter to be installed on the focal plane to the AutoChanger. When a filter at standby in the carousel is taken by the AC on its way to the focal plane , its pins ( one in X- , one in X+)  should be locked from the carousel clamps. These plots presents various plots related to this operation. The pin unlocking from the clamps is an active action from the carousel point of view ( the clamps are unlocked by teh usage of a motor). There is 1 probe in the carousel clamp that record the unclamping operation : the lock sensor , which indicate how much the clamp is closed ( larger it is , more the lock is closed ).Key values for this operoration, are how much current the unclamping motors need to open the clamps ( X+ and X- ) .
+description: The carousel maintain the LSSTcam  filters out of the beam and present the selected filter to be installed on the focal plane to the AutoChanger.
+When a filter at standby in the carousel is taken by the AC on its way to the focal plane , its pins ( one in X- , one in X+)  should be locked from the carousel clamps. These plots presents various plots related to this operation. The pin unlocking from the clamps is an active action from the carousel point of view ( the clamps are unlocked by teh usage of a motor).
+The lock sensor , which indicate how much the clamp is closed ( larger it is , more the lock is closed ),is usefull to follow the unlocking operationg . The key quantities for this operoration, are how much current the unclamping motors (X+ and X-) need to open the clamps ( X+ and X- ).
 authors:
   - name: Pierre Antilogus
     slack: Antilogus
