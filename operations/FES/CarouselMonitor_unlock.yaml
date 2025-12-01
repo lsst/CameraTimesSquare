@@ -20,3 +20,28 @@ parameters:
     type: boolean
     description: Plot only keys plot
     default: True
+
+
+schedule:
+  - start: 2025-12-01T14:00:00Z
+    freq: weekly
+    interval: 2
+    count: 300
+    exclude: false
+    parameters:
+      last_data_date:
+      type: string
+      description: Time to end this plot (YYYY-MM-DD)".
+      default: "Now"
+
+      duration_in_day:
+      type: integer
+      description: Duration (days)
+      default: 16
+
+
+      OverViewOnly:
+      type: boolean
+      description: Plot only keys plot
+      default: True
+
