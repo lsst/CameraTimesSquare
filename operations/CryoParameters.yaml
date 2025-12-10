@@ -24,3 +24,8 @@ parameters:
     type: string
     description: Time interval for data aggregation in Chronograph format (e.g., '5m', '1h')
     default: '5m'
+
+  exclude:
+    type: string
+    description: List of parameters to exclude from the plot.
+    default: 'cryo3'
