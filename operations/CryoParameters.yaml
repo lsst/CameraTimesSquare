@@ -27,5 +27,5 @@ parameters:
 
   exclude:
     type: string
-    description: List of parameters to exclude from the plot.
+    description: List circuits to exclude from the plot, or None
     default: 'cryo3'
