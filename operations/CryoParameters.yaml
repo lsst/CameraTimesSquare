@@ -22,10 +22,10 @@ parameters:
 
   time_interval:
     type: string
-    description: Time interval for data aggregation in Chronograph format (e.g., '5m', '1h')
+    description: Time interval for data aggregation in Chronograph format (e.g., use '5m' for 2 days, use '1h' for 100 days)
     default: '5m'
 
   exclude:
     type: string
-    description: List of parameters to exclude from the plot.
+    description: List circuits to exclude from the plot, or None
     default: 'cryo3'
