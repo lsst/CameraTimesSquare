@@ -21,7 +21,7 @@ parameters:
     description: Plot only keys plot
     default: True
 
- PlotDiagnostic:
+  PlotDiagnostic:
     type: boolean
     description: Plot Diagnostic Information
     default: True
