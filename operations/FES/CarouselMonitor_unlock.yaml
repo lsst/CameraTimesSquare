@@ -21,6 +21,10 @@ parameters:
     description: Plot only keys plot
     default: True
 
+ PlotDiagnostic:
+    type: boolean
+    description: Plot Diagnostic Information
+    default: True
 
 schedule:
   - start: 2025-12-01T14:00:00Z
