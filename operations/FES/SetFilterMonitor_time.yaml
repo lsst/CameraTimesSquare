@@ -20,3 +20,13 @@ parameters:
     type: boolean
     description: Plot only keys plot
     default: True
+
+  max_time:
+    type: integer
+    description: Max fiter exchange time (in s) to plot
+    default: 100
+
+  fontsize:
+    type: integer
+    description: fontsize to use in plots label
+    default:  18
