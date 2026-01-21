@@ -1,0 +1,16 @@
+title: Monitor_motors
+description: The FES has many motors to achive its filters operation . Their movements, as shown in this notebook,  are of high repetability , any glitch can indicate  an issue  / may trigger a maintenance .
+authors:
+  - name: Pierre Antilogus
+    slack: Antilogus
+    
+parameters:
+  last_data_date:
+    type: string
+    description: Time to end this plot (YYYY-MM-DD)".
+    default: "Now"
+
+  duration_in_day:
+    type: integer
+    description: Duration (days)
+    default: 1
