@@ -33,5 +33,5 @@ parameters:
     default: 'None'
 
 schedule:
-  freq: "daily"
-  hour: 8
+  - freq: "daily"
+    hour: 8
