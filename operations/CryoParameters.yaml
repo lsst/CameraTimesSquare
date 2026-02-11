@@ -9,6 +9,7 @@ parameters:
     type: string
     description: Time to end this plot. (Now or '2025-11-19 02:00:00')
 #    default: "Now"
+    format: dayobs-date
     dynamic_default: "today"
 
   duration_in_day:
