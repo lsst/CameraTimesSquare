@@ -8,8 +8,7 @@ parameters:
   t_end:
     type: string
     description: Time to end this plot. (Now or '2025-11-19 02:00:00')
-#    default: "Now"
-    dynamic_default: "today"
+    default: "Now"
 
   duration_in_day:
     type: number
@@ -30,7 +29,3 @@ parameters:
     type: string
     description: List circuits to exclude from the plot, or None
     default: 'None'
-
-schedule:
-  freq: "daily"
-  hour: 8
