@@ -1,0 +1,33 @@
+title: SetFilterMonitor_time
+description: The duration of a filter exchange is a good indicator of the smoothness (or not) of the operation. In these plots we review how much time is needed to cahnge a filter globably and for important step of the filter exchange.  
+authors:
+  - name: Pierre Antilogus
+    slack: Antilogus
+    
+parameters:
+  last_data_date:
+    type: string
+    description: Time to end this plot (YYYY-MM-DD)".
+    format: dayobs-date
+    dynamic_default: "today"
+
+  duration_in_day:
+    type: integer
+    description: Duration (days)
+    default: 1
+
+
+  OverViewOnly:
+    type: boolean
+    description: Plot only keys plot
+    default: True
+
+  max_time:
+    type: integer
+    description: Max fiter exchange time (in s) to plot
+    default: 100
+
+  fontsize:
+    type: integer
+    description: fontsize to use in plots label
+    default:  18

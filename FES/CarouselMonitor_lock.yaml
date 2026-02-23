@@ -1,0 +1,23 @@
+title: CarouselMonitor_lock
+description: The carousel maintain the LSSTcam  filters out of the beam and present the selected filter to be installed on the focal plane to the AutoChanger. When a filter is put back in the carousel, its pins ( one in X- , one in X+)  are locked by the carousel clamps. These plots presents various plots related to this operation. The pin locking inside the clamps is a passive action from the carousel point of view ( the clamps close by themself under the AC presure inside the clamps). Still there is 2 probes in the carousel clamp that record the clamping operation. The filter presence probes , which indicate the position of the filter inside the clamp ( it's a proximity sensor , smaller is the value deeper the filter pin in the clamp ). The lock sensors, which indicate how much the clamp is closed ( larger it is , more the lock is closed ). 
+authors:
+  - name: Pierre Antilogus
+    slack: Antilogus
+    
+parameters:
+  last_data_date:
+    type: string
+    description: Time to end this plot (YYYY-MM-DD)".
+    format: dayobs-date
+    dynamic_default: "today"
+
+  duration_in_day:
+    type: integer
+    description: Duration (days)
+    default: 1
+
+
+  OverViewOnly:
+    type: boolean
+    description: Plot only keys plot
+    default: True
