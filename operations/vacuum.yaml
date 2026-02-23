@@ -1,0 +1,17 @@
+title: Vacuum notebook
+description: Cryostat vacuum and ion pump current (baseline corrected)
+authors:
+  - name: Yousuke Utsumi
+    slack: youtsumi
+
+parameters:
+  t_end:
+    type: string
+    description: Time to end this plot.
+    default: "Now"
+
+  duration_in_day:
+    type: integer
+    description: Duration (days)
+    default: 30
+
