@@ -8,7 +8,8 @@ parameters:
   last_data_date:
     type: string
     description: Time to end this plot (YYYY-MM-DD)".
-    default: "Now"
+    format: dayobs-date
+    dynamic_default: "today"
 
   duration_in_day:
     type: integer
