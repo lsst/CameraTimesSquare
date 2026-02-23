@@ -13,5 +13,5 @@ parameters:
   duration_in_day:
     type: integer
     description: Duration (days)
-    default: 30
+    default: 10
 
