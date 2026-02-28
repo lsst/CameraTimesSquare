@@ -32,21 +32,21 @@ parameters:
 
   vacmin:
     type: number
-    description: minimum vacuum pressure for plots
-    default: 7e-9
+    description: minimum vacuum pressure for plots [Torr]
+    default: 0.000000007
 
   vacmmax:
     type: number
-    description: maximum vacuum pressure for plots
-    default: 3e-7
+    description: maximum vacuum pressure for plots [Torr]
+    default: 0.0000003
 
   curmin:
     type: number
-    description: minimum currents for plots
-    default: 3e-3
+    description: minimum currents for plots [mA]
+    default: 0.003
 
   curmax:
     type: number
-    description: maximum currents for plots
-    default: 1e-1
+    description: maximum currents for plots [mA]
+    default: 0.1
 
