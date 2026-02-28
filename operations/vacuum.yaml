@@ -19,3 +19,13 @@ parameters:
     type: string
     description: Time interval for data aggregation in Chronograph format (e.g., use '5m' for 2 days, use '1h' for 100 days)
     default: '1m'
+
+  a:
+    type: float
+    description: Coefficient a for the linear fit (log(I) = a*log(V) + b)
+    default: 1.06823544
+
+  b:
+    type: float
+    description: Coefficient b for the linear fit (log(I) = a*log(V) + b)
+    default: -5.42086628
