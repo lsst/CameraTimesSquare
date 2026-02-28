@@ -30,23 +30,3 @@ parameters:
     description: Coefficient b for the linear fit (log(I) = a*log(V) + b)
     default: -5.42086628
 
-  vacmin:
-    type: number
-    description: minimum vacuum pressure for plots [Torr]
-    default: 0.000000007
-
-  vacmax:
-    type: number
-    description: maximum vacuum pressure for plots [Torr]
-    default: 0.0000003
-
-  curmin:
-    type: number
-    description: minimum currents for plots [mA]
-    default: 0.003
-
-  curmax:
-    type: number
-    description: maximum currents for plots [mA]
-    default: 0.1
-
