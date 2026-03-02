@@ -1,5 +1,5 @@
 title: Cryo Parameters
-description: This notebook retrieves and plots cryo parameters from the EFD for the Times Square camera.
+description: This notebook retrieves and plots cryo parameters from the EFD for the Times Square camera. Pressure Transducers on the refrig have the offset corerction applied, which haven't in the CCS.
 authors:
   - name: Yousuke Utsumi
     slack: youtsumi
@@ -29,3 +29,8 @@ parameters:
     type: string
     description: List circuits to exclude from the plot, or None
     default: 'None'
+
+  comp_power_threshold:
+    type: number
+    description: Threshold to treat it as off in W
+    default: 750
