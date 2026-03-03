@@ -1,4 +1,4 @@
-title: Query images associated with BLOCK number
+title: Query images
 description: This notebook queries the raw images associated with a given BLOCK number, and prints out the metadata of those images. This is useful for checking the data quality and understanding the data distribution for a specific BLOCK number.
 authors:
   - name: Yousuke Utsumi
