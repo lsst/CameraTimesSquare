@@ -10,18 +10,18 @@ parameters:
     description: Path to the repository containing the data.
     default: "/repo/embargo"
 
-instrument:
-    type: string
-    description: Name of the instrument to query.
-    default: "LSSTCam"
+  instrument:
+      type: string
+      description: Name of the instrument to query.
+      default: "LSSTCam"
 
-program:
-    type: string
-    description: Name of the program to query.
-    default: 'BLOCK-T654'
+  program:
+      type: string
+      description: Name of the program to query.
+      default: 'BLOCK-T654'
 
-fields:
-    type: list
-    description: List of metadata fields to print for each image.
-    default: ['science_program','group', 'day_obs', 'seq_num']
+  fields:
+      type: list
+      description: List of metadata fields to print for each image.
+      default: ['science_program','group', 'day_obs', 'seq_num']
 
