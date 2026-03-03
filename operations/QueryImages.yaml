@@ -1,0 +1,27 @@
+title: Query images associated with BLOCK number
+description: This notebook queries the raw images associated with a given BLOCK number, and prints out the metadata of those images. This is useful for checking the data quality and understanding the data distribution for a specific BLOCK number.
+authors:
+  - name: Yousuke Utsumi
+    slack: youtsumi
+
+parameters:
+  repo_path:
+    type: string
+    description: Path to the repository containing the data.
+    default: "/repo/embargo"
+
+instrument:
+    type: string
+    description: Name of the instrument to query.
+    default: "LSSTCam"
+
+program:
+    type: string
+    description: Name of the program to query.
+    default: 'BLOCK-T654'
+
+fields:
+    type: list
+    description: List of metadata fields to print for each image.
+    default: ['science_program','group', 'day_obs', 'seq_num']
+
