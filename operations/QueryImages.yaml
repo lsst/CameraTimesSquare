@@ -21,7 +21,7 @@ parameters:
       default: 'BLOCK-T654'
 
   fields:
-      type: list
+      type: string 
       description: List of metadata fields to print for each image.
-      default: ['science_program','group', 'day_obs', 'seq_num']
+      default: "science_program,group,day_obs,seq_num"
 
