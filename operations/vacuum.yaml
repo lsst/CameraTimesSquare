@@ -22,11 +22,11 @@ parameters:
 
   a:
     type: number 
-    description: Coefficient a for the linear fit (log(I) = a*log(V) + b)
+    description: Coefficient a for the linear fit (log(P/Torr) = a*log(I/mA) + b)
     default: 1.06823544
 
   b:
     type: number
-    description: Coefficient b for the linear fit (log(I) = a*log(V) + b)
+    description: Coefficient b for the linear fit (log(P/Torr) = a*log(I/mA) + b)
     default: -5.42086628
 
