@@ -12,8 +12,8 @@ parameters:
 
   exposure_2:
     type: integer
-    description: Second exposure id (y axis), e.g. 2026102601386
-    default: 2026102601386
+    description: Second exposure id (y axis), e.g. 2026102600004
+    default: 2026102600004
 
   repo_path:
     type: string
