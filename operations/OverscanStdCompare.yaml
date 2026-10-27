@@ -1,0 +1,56 @@
+title: Overscan std comparison
+description: Compares the per-amplifier serial overscan noise (STDEV) and level (MEDIAN or MEAN) of all channels between two exposures as scatter plots and as focal plane maps of the fractional difference (layout of CTN-001 Figure 1). Values are read from the post_isr_image header written by IsrTaskLSST (LSST ISR OVERSCAN SERIAL {STDEV|MEDIAN|MEAN} Cxx), so the exposures must have been processed by ISR in the given collection. Repositories are searched in order, so exposures that have left the embargo are found in /repo/main.
+authors:
+  - name: Yousuke Utsumi
+    slack: youtsumi
+
+parameters:
+  exposure_1:
+    type: integer
+    description: First exposure id (x axis), e.g. 2026071400700
+    default: 2026071400700
+
+  exposure_2:
+    type: integer
+    description: Second exposure id (y axis), e.g. 2026102600004
+    default: 2026102600004
+
+  repo_path:
+    type: string
+    description: Comma-separated Butler repositories, searched in order
+    default: "/repo/embargo,/repo/main"
+
+  instrument:
+    type: string
+    description: Instrument name
+    default: "LSSTCam"
+
+  collection:
+    type: string
+    description: Collection containing post_isr_image
+    default: "LSSTCam/runs/nightlyValidation"
+
+  statistic:
+    type: string
+    description: Serial overscan statistic for the left panel (STDEV, MEAN, or MEDIAN)
+    default: "STDEV"
+
+  level_statistic:
+    type: string
+    description: Serial overscan level statistic for the right panel (MEAN or MEDIAN)
+    default: "MEDIAN"
+
+  residual:
+    type: boolean
+    description: Use the residual (after overscan fit subtraction) statistic instead
+    default: false
+
+  max_workers:
+    type: integer
+    description: Number of threads used to read the headers
+    default: 4
+
+  frac_limit:
+    type: number
+    description: Color range (+/-) of the fractional difference in the focal plane maps; 0 for automatic (98th percentile)
+    default: 0
